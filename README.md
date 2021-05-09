@@ -23,13 +23,17 @@ Install `spmgen` CLI
 
 ### Installation
 
-> Homebrew support will be added soon
+#### Homebrew
+
+```bash
+brew install makeupstudio/formulae/spmgen
+```
 
 #### Makefile
 
 ```bash
 # Download repo
-git clone https://github.com/edudo-inc/spmgen.git
+git clone https://github.com/makeupstudio/spmgen.git
 
 # Navigate to repo directory
 cd spmgen
@@ -45,7 +49,7 @@ make install
 Add SPMGen dependency to your package
 
 ```swift
-.package(url: "https://github.com/edudo-inc/spmgen.git", from: "1.0.1")
+.package(url: "https://github.com/makeupstudio/spmgen.git", from: "1.0.1")
 ```
 
 Create `<#Project#>Resources` target with a following structure
