@@ -1,5 +1,7 @@
 # SPMGen
 
+[![SwiftPM 5.3](https://img.shields.io/badge/swiftpm-5.3-ED523F.svg?style=flat)](https://swift.org/download/) [![iOS](https://img.shields.io/badge/iOS-supported-brightgreen)]() [![macOS](https://img.shields.io/badge/macOS-supported-brightgreen)]() [![@maximkrouk](https://img.shields.io/badge/contact-@maximkrouk-1DA1F2.svg?style=flat&logo=twitter)](https://twitter.com/maximkrouk)
+
 Resources boilerplate code generator for Swift.
 
 ## About
@@ -53,7 +55,7 @@ Add SPMGen dependency to your package
 ```
 
 Create `<#Project#>Resources` target with a following structure
-> Exact structure is not required, but it's convenient enough and the code below relies on it
+> Exact structure is not required, but it's convenient enough and the code in sections below relies on it
 
 ```plaintext
 Sources
@@ -102,7 +104,7 @@ Add `<#Project#>Resources` target as a dependency to other targets
 )
 ```
 
-Also it's recommended to add generated file to `.gitignore`
+Also, it's recommended to add generated file to `.gitignore`
 
 ## Usage
 
