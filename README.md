@@ -53,6 +53,7 @@ Add SPMGen dependency to your package
 ```
 
 Create `<#Project#>Resources` target with a following structure
+> Exact structure is not required, but it's convenient enough and the code below relies on it
 
 ```plaintext
 Sources
@@ -100,6 +101,8 @@ Add `<#Project#>Resources` target as a dependency to other targets
   ]
 )
 ```
+
+Also it's recommended to add generated file to `.gitignore`
 
 ## Usage
 
